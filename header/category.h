@@ -8,3 +8,7 @@
  * @copyright Copyright (c) 2023
  *
  */
+#include <sample.h>
+@interface Sample (Additional)
+- (NSString *)newMethod;
+@end

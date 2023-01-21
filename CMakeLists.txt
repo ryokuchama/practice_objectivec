@@ -5,7 +5,7 @@ find_package(Threads REQUIRED)
 set(CMAKE_C_FLAGS "-x objective-c")
 # set(CMAKE_CXX_FLAGS "-x objective-c++")
 # set(CMAKE_EXE_LINKER_FLAGS "-framework Cocoa -framework AppKit -framework CoreData -     framework Foundation")
-add_executable(${PROJECT_NAME} src/main.m src/sample.m)
+add_executable(${PROJECT_NAME} src/main.m src/sample.m src/category.m)
 target_link_libraries(${PROJECT_NAME} PUBLIC 
     "-framework Cocoa"
     "-framework AppKit"
